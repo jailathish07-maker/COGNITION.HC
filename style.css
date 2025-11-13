@@ -8,16 +8,10 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  padding: 10px 40px;
-  background: white;
-  border-bottom: 1px solid #ddd;
-}
-
-.header-buttons {
-  display: flex;
-  gap: 15px;
-  margin-top: 15px;   /* pushes buttons slightly down */
+  align-items: center;
+  padding: 15px 40px;
+  background: #ffffff;
+  border-bottom: 1px solid #cccccc;
 }
 
 .logo-container {
@@ -131,22 +125,7 @@ body {
 
 .clinic-title h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 25px;
+  font-size: 32px;
   font-weight: 700;
   letter-spacing: 1px;
-}
-
-.clinic-title h2 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 25px;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
-.clinic-title p {
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  margin-top: -7px;
 }
